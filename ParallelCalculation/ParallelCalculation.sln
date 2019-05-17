@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenMP.PSRS", "OpenMP.PSRS\OpenMP.PSRS.vcxproj", "{41474161-1D0E-4E86-B2CD-64EED396A925}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenMP.Pi", "OpenMP.Pi\OpenMP.Pi.vcxproj", "{14926601-8F1C-4157-88EA-BB01FDBB5AD7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Cuda.Vector", "Cuda.Vector\Cuda.Vector.vcxproj", "{FE36F1BB-B837-42EB-BDBB-CC90EB5E044F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Cuda.Matrix", "Cuda.Matrix\Cuda.Matrix.vcxproj", "{997E0757-EA74-4A4E-A0FC-47D8C8831A15}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{41474161-1D0E-4E86-B2CD-64EED396A925}.Debug|x64.ActiveCfg = Debug|x64
+		{41474161-1D0E-4E86-B2CD-64EED396A925}.Debug|x64.Build.0 = Debug|x64
+		{41474161-1D0E-4E86-B2CD-64EED396A925}.Debug|x86.ActiveCfg = Debug|Win32
+		{41474161-1D0E-4E86-B2CD-64EED396A925}.Release|x64.ActiveCfg = Release|x64
+		{41474161-1D0E-4E86-B2CD-64EED396A925}.Release|x64.Build.0 = Release|x64
+		{41474161-1D0E-4E86-B2CD-64EED396A925}.Release|x86.ActiveCfg = Release|Win32
+		{14926601-8F1C-4157-88EA-BB01FDBB5AD7}.Debug|x64.ActiveCfg = Debug|x64
+		{14926601-8F1C-4157-88EA-BB01FDBB5AD7}.Debug|x64.Build.0 = Debug|x64
+		{14926601-8F1C-4157-88EA-BB01FDBB5AD7}.Debug|x86.ActiveCfg = Debug|Win32
+		{14926601-8F1C-4157-88EA-BB01FDBB5AD7}.Release|x64.ActiveCfg = Release|x64
+		{14926601-8F1C-4157-88EA-BB01FDBB5AD7}.Release|x64.Build.0 = Release|x64
+		{14926601-8F1C-4157-88EA-BB01FDBB5AD7}.Release|x86.ActiveCfg = Release|Win32
+		{FE36F1BB-B837-42EB-BDBB-CC90EB5E044F}.Debug|x64.ActiveCfg = Debug|x64
+		{FE36F1BB-B837-42EB-BDBB-CC90EB5E044F}.Debug|x64.Build.0 = Debug|x64
+		{FE36F1BB-B837-42EB-BDBB-CC90EB5E044F}.Debug|x86.ActiveCfg = Debug|x64
+		{FE36F1BB-B837-42EB-BDBB-CC90EB5E044F}.Debug|x86.Build.0 = Debug|x64
+		{FE36F1BB-B837-42EB-BDBB-CC90EB5E044F}.Release|x64.ActiveCfg = Release|x64
+		{FE36F1BB-B837-42EB-BDBB-CC90EB5E044F}.Release|x64.Build.0 = Release|x64
+		{FE36F1BB-B837-42EB-BDBB-CC90EB5E044F}.Release|x86.ActiveCfg = Release|x64
+		{997E0757-EA74-4A4E-A0FC-47D8C8831A15}.Debug|x64.ActiveCfg = Debug|x64
+		{997E0757-EA74-4A4E-A0FC-47D8C8831A15}.Debug|x64.Build.0 = Debug|x64
+		{997E0757-EA74-4A4E-A0FC-47D8C8831A15}.Debug|x86.ActiveCfg = Debug|x64
+		{997E0757-EA74-4A4E-A0FC-47D8C8831A15}.Release|x64.ActiveCfg = Release|x64
+		{997E0757-EA74-4A4E-A0FC-47D8C8831A15}.Release|x64.Build.0 = Release|x64
+		{997E0757-EA74-4A4E-A0FC-47D8C8831A15}.Release|x86.ActiveCfg = Release|x64
+		{997E0757-EA74-4A4E-A0FC-47D8C8831A15}.Release|x86.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {242A6698-1C68-48C2-8F6E-48831FC6CC20}
+	EndGlobalSection
+EndGlobal
